@@ -32,7 +32,7 @@ legend("topright", lty=c(1,1) ,col = c("black", "red", "blue"), legend = c("Sub_
 
        
 #2,2
-plot(subData$Datetime, subData$Global_reactive_power, type="l", xlab ="datetime")
+plot(subData$Datetime, subData$Global_reactive_power, type="l", xlab ="datetime", ylab="Global_reactive_power")
 
 
 ## Saving to file
